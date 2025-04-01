@@ -18,7 +18,7 @@ import {
   ProfileMenu,
   Send,
   TokenICO,
-  Exchange,
+  // Exchange,
   Home,
   Viral,
   Explore,
@@ -278,7 +278,7 @@ const index = () => {
                   activeUser={activeUser}
                   setopenComponent={setopenComponent}
                   setPlayMusic={setPlayMusic}
-                  activeUser={activeUser}
+                  // activeUser={activeUser}
                   setOpenComment={setOpenComment}
                   followerArray={allDappUsers}
                   followingUsers={followingUsers}
@@ -360,14 +360,14 @@ const index = () => {
             />
           )}
 
-          {exchange && <Exchange setExchange={setExchange} />}
+          {/* {exchange && <Exchange setExchange={setExchange} />} */}
           <Player
             setExchange={setExchange}
             setPlayginNow={setPlayginNow}
             setOpenProduct={setOpenProduct}
             setCredit={setCredit}
             playMusic={playMusic}
-            activeUser={activeUser}
+            // activeUser={activeUser}
             setReCall={setReCall}
             reCall={reCall}
             allPost={allPost}
@@ -377,16 +377,16 @@ const index = () => {
             <MobilePlay playMusic={playMusic} />
           </div>
 
-          {openProduct && (
+          {/* {openProduct && (
             <Artists setOpenProduct={setOpenProduct} allArtist={allArtist} />
-          )}
+          )} */}
 
           {playginNow && (
             <PlayNow setPlayginNow={setPlayginNow} playMusic={playMusic} />
           )}
           {credit && (
             <Credit
-              activeUser={activeUser}
+              // activeUser={activeUser}
               setCredit={setCredit}
               setLoader={setLoader}
             />

@@ -151,7 +151,7 @@ const RightSidebar = ({ followerArray, followingUsers, setReCall, reCall }) => {
                     More
                   </p>
                 </div>
-                <p>© 2024 theblockchaincoders.com</p>
+                <p>© 2025 DappProject</p>
               </div>
             </div>
           </div>

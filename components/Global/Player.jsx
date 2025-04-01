@@ -4,20 +4,13 @@ import {
   Pause,
   UnLike,
   Heart,
-  Player1,
   Player2,
   Player3,
   Player4,
-  Player5,
-  Player6,
-  Player7,
-  Player8,
+  
 } from "../SVG/index";
 
 const Player = ({
-  setExchange,
-  setPlayginNow,
-  setOpenProduct,
   setCredit,
   playMusic,
   activeUser,
@@ -285,12 +278,7 @@ const Player = ({
         </div>
         <div className="flex h-full max-w-[1440px] flex-1 flex-col items-center">
           <div className="mb-2 flex h-[30px] w-[224px] items-center justify-between">
-            {/* <button
-              className="c-ebvTKE c-ebvTKE-isdEXf-variant-primary c-ebvTKE-ibJzEHE-css data-[state=active]:text-fuchsia500 data-[state=inactive]:text-black"
-              onClick={() => resetMusic()}
-            >
-              <Player1 />
-            </button> */}
+           
             <button
               onClick={() => onPreviousClick(allPost)}
               className="c-ebvTKE c-ebvTKE-isdEXf-variant-primary c-ebvTKE-ibJzEHE-css text-black focus:text-black hover:text-black active:text-black"
@@ -363,25 +351,7 @@ const Player = ({
           </div>
         </div>
         <div className="flex h-full w-full max-w-[360px] items-center justify-end gap-2 overflow-hidden pr-1">
-          <button
-            onClick={() => setExchange(true)}
-            className="c-ebvTKE c-ebvTKE-isdEXf-variant-primary c-ebvTKE-igSQqDW-css"
-          >
-            <Player6 />
-          </button>
-          <button
-            onClick={() => setPlayginNow(true)}
-            className="c-ebvTKE c-ebvTKE-isdEXf-variant-primary c-ebvTKE-igSQqDW-css"
-          >
-            <Player7 />
-          </button>
-
-          <button
-            onClick={() => setOpenProduct(true)}
-            className="c-ebvTKE c-ebvTKE-isdEXf-variant-primary c-ebvTKE-ikxyKnX-css data-[state=active]:text-fuchsia500"
-          >
-            <Player8 />
-          </button>
+         
           <button
             onClick={() => setCredit(true)}
             className="c-bPnuSX c-bPnuSX-SFeiM-size-S c-bPnuSX-kiaVWo-variant-primary min-w-none w-fit !px-3 !py-2"

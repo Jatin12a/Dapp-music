@@ -37,16 +37,16 @@ const Sidebar = ({
       icon: <Home />,
       handleClick: "",
     },
-    {
-      name: "Viral Sounds",
-      icon: <Line />,
-      handleClick: "",
-    },
-    {
-      name: "Explore",
-      icon: <Explore />,
-      handleClick: "",
-    },
+    // {
+    //   name: "Viral Sounds",
+    //   icon: <Line />,
+    //   handleClick: "",
+    // },
+    // {
+    //   name: "Explore",
+    //   icon: <Explore />,
+    //   handleClick: "",
+    // },
     {
       name: "Notifications",
       icon: <Notification />,
@@ -112,17 +112,17 @@ const Sidebar = ({
                 )}
               </div>
               <div className="mt-3 flex flex-col gap-4">
-                {allArtist
+                {/* {allArtist
                   ?.map((item, index) => (
                     <Channels
-                      image={item?.profilePicture || "/theblockchaincoders.jpg"}
+                      image={item?.profilePicture || "/theblckchaincoders.jpg"}
                       name={item?.fullName || `@${item?.username}`}
                       address={item?.address}
                       userId={item?._id}
                       verify={item?.verify}
                     />
                   ))
-                  .slice(0, 6)}
+                  .slice(0, 6)} */}
               </div>
             </div>
           </div>
