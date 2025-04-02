@@ -37,16 +37,7 @@ const Sidebar = ({
       icon: <Home />,
       handleClick: "",
     },
-    // {
-    //   name: "Viral Sounds",
-    //   icon: <Line />,
-    //   handleClick: "",
-    // },
-    // {
-    //   name: "Explore",
-    //   icon: <Explore />,
-    //   handleClick: "",
-    // },
+    
     {
       name: "Notifications",
       icon: <Notification />,

@@ -8,166 +8,113 @@
 @media {
   :root,
   .t-IErMA {
-    --fonts-title: Acid Grotesk, sans-serif;
-    --fonts-base: Inter, sans-serif;
-    --fonts-kicker: Inter, sans-serif;
-    --fonts-numerals: NB Architekt Neue, sans-serif;
-    --fonts-body: Inter, sans-serif;
-    --fonts-mono: NB Architekt Neue, sans-serif;
-    --widths-modalWidth: 1500px;
-    --widths-landingMaxWidth: 1280px;
-    --widths-defaultMaxWidth: 1285px;
-    --colors-neutral50: #fafafa;
-    --colors-neutral100: #f5f5f5;
-    --colors-neutral200: #e5e5e5;
-    --colors-neutral300: #d4d4d4;
-    --colors-neutral400: #a3a3a3;
-    --colors-neutral500: #737373;
-    --colors-neutral600: #525252;
-    --colors-neutral700: #404040;
-    --colors-neutral800: #262626;
-    --colors-neutral900: #171717;
-    --colors-brand50: #ecfdf5;
-    --colors-brand100: #a7f3d0;
-    --colors-brand200: #6ee7b7;
-    --colors-brand300: #34d399;
-    --colors-brand500: #10b981;
-    --colors-brand600: #059669;
-    --colors-brand700: #047857;
-    --colors-brand800: #065f46;
-    --colors-brand900: #064e3b;
-    --colors-brandAccent20: #e5f3f0;
-    --colors-brandAccent40: #d5f0e9;
-    --colors-brandAccent50: #d1fae5;
-    --colors-brandAccent60: #c3ece2;
-    --colors-brandAccent80: #b2e9db;
-    --colors-brandAccent100: #a1e6d5;
-    --colors-accent300: #f0abfc;
-    --colors-accent700: #eb5cbb;
-    --colors-success50: #f0fdf4;
-    --colors-success500: #22c55e;
-    --colors-success700: #15803d;
-    --colors-warning50: #fff7ed;
-    --colors-warning400: #eab308;
-    --colors-warning700: #c2410c;
-    --colors-destructive50: #fef2f2;
-    --colors-destructive200: #f7a1a1;
-    --colors-destructive300: #ef4444;
-    --colors-destructive700: #b91c1c;
-    --colors-education50: #ececff;
-    --colors-education100: #8280ff;
-    --colors-education200: #605dec;
-    --colors-white: #fff;
-    --colors-black: #0e1213;
-    --colors-blue400: #4299e1;
-    --colors-grey100: #f3f4f6;
-    --colors-grey200: #e5e6eb;
-    --colors-grey300: #d2d5d9;
-    --colors-grey400: #9da3ae;
-    --colors-grey500: #6d7180;
-    --colors-grey600: #4d5562;
-    --colors-grey700: #394150;
-    --colors-grey800: #192024;
-    --colors-grey900: #1a1b22;
-    --colors-danger100: #e53e3e;
-    --colors-danger200: #d32f2f;
-    --colors-black100: #262626;
-    --colors-gray100: #8f8f8f;
-    --colors-gray200: #eeeeee;
-    --colors-gray300: #e7e7e7;
-    --colors-green100: #34d399;
-    --colors-green200: #a7f3d0;
-    --colors-base50: #fafafa;
-    --colors-base100: #f7f7f7;
-    --colors-base200: #f5f5f5;
-    --colors-base300: #e6e6e6;
-    --colors-base400: #a3a3a3;
-    --colors-base500: #737373;
-    --colors-base600: #404040;
-    --colors-base700: #333333;
-    --colors-base800: #1f1f1f;
-    --colors-base900: #0f0f0f;
-    --colors-fuchsia500: #eb5cbb;
-    --colors-userEducation600: #605dec;
-    --gradients-green: linear-gradient(
-      90deg,
-      #34d399 1.83%,
-      #10b981 50.07%,
-      #059669 96.34%
-    );
-    --gradients-black: linear-gradient(
-      90deg,
-      #525252 1.83%,
-      #404040 50.07%,
-      #262626 96.34%
-    );
-    --gradients-white: linear-gradient(
-      270deg,
-      #fff 50%,
-      rgba(255, 255, 255, 0) 100%
-    );
-    --gradients-fuchsia: linear-gradient(
-      90deg,
-      #fb7085 1.83%,
-      #eb5cbb 50.07%,
-      #d945ef 96.34%
-    );
-    --space-1: 4px;
-    --space-2: 8px;
-    --space-3: 12px;
-    --space-4: 16px;
-    --space-5: 20px;
-    --space-6: 24px;
-    --space-7: 28px;
-    --space-8: 32px;
-    --space-10: 40px;
-    --space-12: 48px;
-    --space-16: 64px;
-    --space-20: 80px;
-    --space-24: 96px;
-    --space-32: 128px;
-    --space-40: 160px;
-    --space-48: 192px;
-    --radii-small: 0.25rem;
-    --radii-medium: 0.5rem;
-    --radii-large: 0.75rem;
-    --radii-extraLarge: 1rem;
-    --radii-full: 100%;
-    --radii-sm: 8px;
-    --shadows-brandAccent50: 0px 0px 20px rgba(161, 230, 213, 0.5);
-    --transitions-fastest: 0.05s ease;
-    --transitions-fast: 0.1s ease;
-    --transitions-medium: 0.2s ease;
-    --transitions-slow: 0.3s ease;
-    --transitions-slowest: 0.4s ease;
-    --scales-imageZoom: scale(1.2);
-    --zIndices-below: -1;
-    --zIndices-base: 0;
-    --zIndices-above1: 1;
-    --zIndices-above2: 2;
-    --zIndices-above3: 3;
-    --zIndices-secondaryNav: 1200;
-    --zIndices-header: 1300;
-    --zIndices-tooltip: 1350;
-    --zIndices-dropdown: 1375;
-    --zIndices-leftNav: 1400;
-    --zIndices-audioPlayerQueue: 1500;
-    --zIndices-audioPlayerContainer: 1600;
-    --zIndices-audioPlayerQueueDropdown: 1700;
-    --zIndices-stickyFooter: 1750;
-    --zIndices-mobileNav: 1800;
-    --zIndices-audioPlayerSheet: 1850;
-    --zIndices-audioPlayerComments: 1855;
-    --zIndices-audioPlayerQueueMobile: 1860;
-    --zIndices-overlay: 1900;
-    --zIndices-search: 2000;
-    --zIndices-modal: 2100;
-    --zIndices-toast: 2200;
-    --zIndices-modalDropdown: 2300;
-    --zIndices-previewFrame: 2400;
-    --zIndices-previewFrameInfo: 2450;
+    --fonts-title: Comic Sans MS, cursive;
+    --fonts-base: Papyrus, fantasy;
+    --fonts-kicker: Times New Roman, serif;
+    --fonts-numerals: Courier New, monospace;
+    --fonts-body: Verdana, sans-serif;
+    --fonts-mono: Arial, sans-serif;
+    --widths-modalWidth: 2000px;
+    --widths-landingMaxWidth: 1000px;
+    --widths-defaultMaxWidth: 900px;
+    --colors-neutral50: #ff0000;
+    --colors-neutral100: #00ff00;
+    --colors-neutral200: #0000ff;
+    --colors-neutral300: #ffff00;
+    --colors-neutral400: #ff00ff;
+    --colors-neutral500: #00ffff;
+    --colors-neutral600: #ff8800;
+    --colors-neutral700: #8800ff;
+    --colors-neutral800: #0088ff;
+    --colors-neutral900: #ff0088;
+    --colors-brand50: #123456;
+    --colors-brand100: #654321;
+    --colors-brand200: #abcdef;
+    --colors-brand300: #fedcba;
+    --colors-brand500: #a1b2c3;
+    --colors-brand600: #c3b2a1;
+    --colors-brand700: #1a2b3c;
+    --colors-brand800: #3c2b1a;
+    --colors-brand900: #deadbe;
+    --colors-brandAccent20: #11aa22;
+    --colors-brandAccent40: #aa2211;
+    --colors-brandAccent50: #ff3300;
+    --colors-brandAccent60: #00ff33;
+    --colors-brandAccent80: #1133aa;
+    --colors-brandAccent100: #aa1133;
+    --colors-accent300: #aaff00;
+    --colors-accent700: #00aaff;
+    --colors-success50: #123abc;
+    --colors-success500: #bc3210;
+    --colors-success700: #765432;
+    --colors-warning50: #abcdef;
+    --colors-warning400: #fedcba;
+    --colors-warning700: #abcdef;
+    --colors-destructive50: #ff2222;
+    --colors-destructive200: #22ff22;
+    --colors-destructive300: #2222ff;
+    --colors-destructive700: #ff00aa;
+    --colors-education50: #00ffaa;
+    --colors-education100: #ff00ff;
+    --colors-education200: #00ffff;
+    --colors-white: #bada55;
+    --colors-black: #c0ffee;
+    --colors-blue400: #facade;
+    --colors-grey100: #abcdef;
+    --colors-grey200: #fedcba;
+    --colors-grey300: #123456;
+    --colors-grey400: #654321;
+    --colors-grey500: #1a2b3c;
+    --colors-grey600: #3c2b1a;
+    --colors-grey700: #a1b2c3;
+    --colors-grey800: #c3b2a1;
+    --colors-grey900: #deadbe;
+    --colors-danger100: #ff33aa;
+    --colors-danger200: #33ffaa;
+    --colors-black100: #ffcc00;
+    --colors-gray100: #00ccff;
+    --colors-gray200: #cc00ff;
+    --colors-gray300: #ff00cc;
+    --colors-green100: #00ffcc;
+    --colors-green200: #ccff00;
+    --colors-base50: #123abc;
+    --colors-base100: #bc3210;
+    --colors-base200: #765432;
+    --colors-base300: #abcdef;
+    --colors-base400: #fedcba;
+    --colors-base500: #abcdef;
+    --colors-base600: #654321;
+    --colors-base700: #1a2b3c;
+    --colors-base800: #3c2b1a;
+    --colors-base900: #a1b2c3;
+    --colors-fuchsia500: #c3b2a1;
+    --colors-userEducation600: #deadbe;
+    --space-1: 6px;
+    --space-2: 10px;
+    --space-3: 14px;
+    --space-4: 18px;
+    --space-5: 22px;
+    --space-6: 26px;
+    --space-7: 30px;
+    --space-8: 34px;
+    --space-10: 44px;
+    --space-12: 54px;
+    --space-16: 70px;
+    --space-20: 90px;
+    --space-24: 110px;
+    --space-32: 140px;
+    --space-40: 170px;
+    --space-48: 200px;
+    --radii-small: 1rem;
+    --radii-medium: 1.5rem;
+    --radii-large: 2rem;
+    --radii-extraLarge: 2.5rem;
+    --radii-full: 150%;
+    --radii-sm: 12px;
+    --shadows-brandAccent50: 0px 0px 30px rgba(255, 0, 0, 0.5);
   }
 }
+
 --sxs {
   --sxs: 2 c-iQOEWc c-PJLV c-kEurEn c-kwkTWz c-cKdKOf c-gYAfAA c-gmlcKr c-kBYYkb
     c-bPnuSX c-cyzOWz c-eeqGMk c-bxHOAA c-hrywGi c-lbNOYO;
