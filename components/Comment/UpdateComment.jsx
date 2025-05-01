@@ -1,22 +1,18 @@
 import React, { useState } from "react";
 
-const UpdateComment = ({
-  comment,
-  setUpdateCommentID,
-  activeUser,
-  UPDATE_COMMENT,
-}) => {
-  const [updateComment, setUpdateComment] = useState();
+const UpdateComment = ({ comment, setUpdateCommentID, UPDATE_COMMENT }) => {
+  const [updateComment, setUpdateComment] = useState("");
+
   return (
     <>
-      {" "}
       <textarea
+        value={updateComment}
         onChange={(e) => setUpdateComment(e.target.value)}
         className="new_comment_reply"
         rows="3"
-      ></textarea>
-      <div className="c-lcMBLM  c-lcMBLM-fZJslF-withoutPadding-true">
-        <div className="flex w-full gap-3 ">
+      />
+      <div className="c-lcMBLM c-lcMBLM-fZJslF-withoutPadding-true">
+        <div className="flex w-full gap-3">
           <button
             onClick={() => setUpdateCommentID("")}
             className="c-bPnuSX c-bPnuSX-cTUqzc-fullWidth-true c-bPnuSX-cMJTpp-size-L c-bPnuSX-hxpvys-variant-secondary flex-1"

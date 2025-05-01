@@ -105,7 +105,7 @@ const refetchUserController = async (req, res, next) => {
 
   jwt.verify(token, process.env.JWT_SECRET, {}, async (err, data) => {
     if (err) {
-      // throw new CustomError(err, 404);
+      
       console.log("hey");
     }
     try {

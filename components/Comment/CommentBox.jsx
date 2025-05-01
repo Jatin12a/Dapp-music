@@ -12,20 +12,8 @@ const CommentBox = ({ setCommentMsg }) => {
         rows="10"
       ></textarea>
 
-      <div className="scrollbar-light h-full w-full overflow-y-auto">
-        <div
-          className="outline-none pb-8"
-          style={{
-            userSelect: "text",
-            whiteSpace: "pre-wrap",
-            wordBreak: "break-word",
-          }}
-        >
-          <p>
-            <br />
-          </p>
-        </div>
-      </div>
+      <div className="scrollbar-light h-full w-full overflow-y-auto" />
+
       <div className="absolute bottom-2 right-2 -mx-2 -my-1 flex select-none items-center gap-1 overflow-hidden rounded-full px-2 py-1 backdrop-blur bg-neutral100/50">
         <div className="text-neutral400">0/1000</div>
       </div>

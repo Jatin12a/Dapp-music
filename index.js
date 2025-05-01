@@ -15,8 +15,6 @@ const userRoute = require("./Api/routes/users");
 const postRoute = require("./Api/routes/posts");
 const commentRoute = require("./Api/routes/comments");
 const storyRoute = require("./Api/routes/stories");
-const conversationRoute = require("./Api/routes/conversations");
-const messageRoute = require("./Api/routes/messages");
 const path = require("path");
 const { errorHandler } = require("./Api/middlewares/error");
 const verifyToken = require("./Api/middlewares/verifyToken");
@@ -34,8 +32,8 @@ app.use("/api/user", verifyToken, userRoute);
 app.use("/api/post", verifyToken, postRoute);
 app.use("/api/comment", verifyToken, commentRoute);
 app.use("/api/story", verifyToken, storyRoute);
-app.use("/api/conversation", verifyToken, conversationRoute);
-app.use("/api/message", verifyToken, messageRoute);
+// app.use("/api/conversation", verifyToken, conversationRoute);
+// app.use("/api/message", verifyToken, messageRoute);
 
 app.use(errorHandler);
 

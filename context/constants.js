@@ -4,7 +4,7 @@ import axios from "axios";
 
 import musicICO from "./MusicICO.json";
 import musicNFT from "./MusicNFT.json";
-import theBlockchainCoders from "./TheBlockchainCoders.json";
+// import theBlockchainCoders from "./TheBlockchainCoders.json";
 
 //OWNER ADDRESS
 export const OWNER_ADDRESS = "0xb309098bcB51E5C687a16FA41bD6055f47c9eBb0";
@@ -15,10 +15,10 @@ export const CREDIT_AMOUNT = 0.00005;
 //TOKEN ThebBlockchainCoders
 // export const thebBlockchainCoders_Add =
 //   "0x0513D7BDcC386C1FEAc99450E00305E70C6EBe0A";
-//NEW
-export const thebBlockchainCoders_Add =
-  "0xB17B6A5Ee5d46b2e6FCbb2396FF1CD7c486b6c4f";
-const theBlockchainCoders_ABI = theBlockchainCoders.abi;
+// //NEW
+// export const thebBlockchainCoders_Add =
+//   "0xB17B6A5Ee5d46b2e6FCbb2396FF1CD7c486b6c4f";
+// const theBlockchainCoders_ABI = theBlockchainCoders.abi;
 
 //ICO CONTRACT
 //OLD

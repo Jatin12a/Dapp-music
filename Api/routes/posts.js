@@ -22,22 +22,14 @@ router.post(
   createPostWithImagesController
 );
 
-//UPDATE POST
 router.put("/update/:postId", updatePostController);
 
-//GET ALL POSTS
 router.get("/all/:userId", getPostsController);
 
-//GET USER POSTS
 router.get("/user/:userId", getUserPostsController);
-
-//DELETE POST
 router.delete("/delete/:postId", deletePostController);
-
-//LIKE POST
 router.post("/like/:postId", likePostController);
 
-//DISLIKE POST
 router.post("/dislike/:postId", dislikePostController);
 
 module.exports = router;
