@@ -2,10 +2,11 @@
 @import url("../public/static/css/0785f0cce25e1e51.css");
 @import url("../public/static/css/040e56f175117dbf.css");
 
+
 --sxs {
   --sxs: 0 t-IErMA;
 }
-@media {
+@media (min-width: 0px) {
   :root,
   .t-IErMA {
     --fonts-title: Comic Sans MS, cursive;
@@ -119,7 +120,7 @@
   --sxs: 2 c-iQOEWc c-PJLV c-kEurEn c-kwkTWz c-cKdKOf c-gYAfAA c-gmlcKr c-kBYYkb
     c-bPnuSX c-cyzOWz c-eeqGMk c-bxHOAA c-hrywGi c-lbNOYO;
 }
-@media {
+@media (min-width: 0px) {
   .c-iQOEWc {
     background-color: var(--colors-white);
     box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.1);
@@ -485,7 +486,7 @@
     c-kBYYkb-dSlitE-media-notTablet c-hrywGi-holfMk-border-true
     c-bPnuSX-SFeiM-size-S;
 }
-@media {
+@media(min-width: 0px) {
   .c-gYAfAA-fyicCh-main-true {
     z-index: var(--zIndices-search);
   }
@@ -578,7 +579,7 @@
 --sxs {
   --sxs: 5 c-bPnuSX-ezoWIT-cv;
 }
-@media {
+@media(min-width: 0px) {
   .c-bPnuSX-ezoWIT-cv {
     cursor: not-allowed;
     border: none !important;
@@ -596,7 +597,7 @@
 --sxs {
   --sxs: 6 c-PJLV-iiuDyin-css c-hrywGi-ikkHwcD-css c-hrywGi-ijsqUvB-css;
 }
-@media {
+@media(min-width: 0px) {
   .c-hrywGi-ikkHwcD-css {
     border-radius: 100%;
     background-color: unset;
@@ -623,7 +624,7 @@
 
 /* //PLAYLIST PAGE */
 
-@media {
+@media (min-width: 0px){
   .c-eOfRZm {
     display: flex;
     align-items: center;
@@ -643,7 +644,7 @@
   --sxs: 3 c-eOfRZm-kOvvGq-isFullScreen-true c-jfpKjk-kEhNqy-size-xl
     c-jfpKjk-iDRcZo-type-fullScreenLoading;
 }
-@media {
+@media(min-width: 0px) {
   .c-eOfRZm-kOvvGq-isFullScreen-true {
     height: 100vh;
     width: 100vw;
@@ -1216,30 +1217,7 @@
   font-weight: 600;
   display: block;
 }
-@media (min-width: 768px) {
-  .c-gYAfAA {
-    min-width: 277px;
-    height: 40px;
-    background-image: ;
-    background-position-x: ;
-    background-position-y: ;
-    background-size: ;
-    background-repeat: ;
-    background-attachment: ;
-    background-origin: ;
-    background-clip: ;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(24px);
-    border-width: initial;
-    border-style: none;
-    border-color: initial;
-    border-image: initial;
-    border-radius: var(--radii-sm);
-    padding: 11px 12px;
-    transition: background-color 0.3s ease-in-out 0s;
-  }
-}
+
 
 .c-gYAfAA {
   background: white;
@@ -1545,7 +1523,7 @@
 
 /*  Hide Original */
 .new_range {
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
   background-color: rgba(240, 9, 9, 0.397);
   height: 10px;
   width: 100%;
@@ -1581,7 +1559,7 @@
   border-radius: 50%;
   top: 50%;
   transform: translate(0%, -50%);
-  pointer-events: none; /* Remove pointer events on thumb so user can click on the actual thumb beaneath it!  */
+  pointer-events: none; /* Remove pointer events on thumb so user can click on the actual thumb beaneath it */
   user-select: none; /*  Prevent Accidentally highlighting the number while sliding the cursor  */
 }
 
